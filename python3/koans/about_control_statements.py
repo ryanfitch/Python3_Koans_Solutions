@@ -25,7 +25,7 @@ class AboutControlStatements(Koan):
             result = 'true value'
         else:
             result = 'default value'
-        self.assertEqual(__, result)
+        self.assertEqual('true value', result)
 
     def test_while_statement(self):
         i = 1
